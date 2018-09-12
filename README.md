@@ -9,4 +9,5 @@ For more details on *init-image*, see [here](https://medium.com/fnproject/even-w
 `docker build -t groovy-init -f Dockerfile-groovy-init .`
 
 ### Test the init-image 
-`fn init --init-image=groovy-init`
+`fn init --init-image=groovy-init myfunc`
+`fn run myfunc`
